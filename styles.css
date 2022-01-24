@@ -1,0 +1,172 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /*dynamic sizes 100% = 16px = 1em   (90px = 562.5% = 5.625em)
+  dynamic helps if users change default font sizes
+  some designers say users most likely to zoom so px is fine
+  however, dynamic font sizes are inherited from parent
+  rem = root em = ignore parent settings */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  margin: 50px auto;
+  width: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #11999E;
+  font-family: "Montserrat"sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.top-container {
+  background-color: #E4F6F6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  color: #11999E;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  overflow: auto;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  /* this margin auto allows the p class to get re-centered */
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+  /* 3 values translates to top=40 auto - leftANDright 60=bottom */
+}
+
+.top-cloud {
+  position: absolute;
+  right: 450px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 450px;
+  bottom: 300px;
+}
+
+.skill-image {
+  float: left;
+  margin-right: 30px;
+  width: 25%;
+}
+
+.drum-image {
+  float: right;
+  margin-left: 30px;
+  width: 25%;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: .75rem;
+}
+
+.attribution-links {
+  padding: 20px 0 10px 0;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#11cdd4), color-stop(100%,#11999e)); /* Chrome,Safari4+ */
+
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#30e3cb), color-stop(100%,#2bc4ad)); /* Chrome,Safari4+ */
+  text-decoration: none;
+}
+
+/*
+.programming-skill-description {
+    clear: left;
+}
+
+.drumming-skill-description {
+    clear: right;
+}
+*/
